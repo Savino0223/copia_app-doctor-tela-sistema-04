@@ -4,8 +4,10 @@ import { TelaCadastroComponent } from './telas/tela-cadastro/tela-cadastro.compo
 import { TelaLoginComponent } from './telas/tela-login/tela-login.component';
 
 const routes: Routes = [
+
   { path: 'login', component: TelaLoginComponent },
-  { path: 'cadastro', component: TelaCadastroComponent },
+  { path: 'cadastro', component: TelaCadastroComponent }
+  ,
 ];
 
 @NgModule({
