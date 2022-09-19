@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { TelaCadastroComponent } from './telas/tela-cadastro/tela-cadastro.component';
 import { TelaLoginComponent } from './telas/tela-login/tela-login.component';
 import { TelaSistemaComponent } from './telas/tela-sistema/tela-sistema.component';
+import { TelaSistemaCadastroMedicoComponent } from './telas/tela-sistema-cadastro-medico/tela-sistema-cadastro-medico.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TelaCadastroComponent,
     TelaLoginComponent,
-    TelaSistemaComponent
+    TelaSistemaComponent,
+    TelaSistemaCadastroMedicoComponent
   ],
   imports: [
     BrowserModule,
